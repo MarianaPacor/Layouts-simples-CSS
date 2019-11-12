@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    background-color:orangered;
+    width: 960px;
+    margin: 80px auto;
+    position: relative;
+}
+body {
+    margin:0 auto;
+    font-family: sans-serif;
+    background-color: rgba(168, 243, 248, 0.973);
+}
+nav,
+nav ul li{
+    display:inline-block;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+nav ul li a:hover {
+    color: black;
+}
+header img {
+    display: flex;
+    position: relative;
+    top: -50px;
+    left: -10px;
+    float: left;
+    background-color: unset;
+    width: 15%;
+}
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color:white;
+    width: 960px;
+    margin:100px auto;
+}
+section div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin: 20px 10px;
+    width: 300px;
+    height: 180px;
+    position: relative;
+}
+#produto1 {
+    background-image:url('images/produto-1.png');
+}
+#produto2 {
+    background-image:url('images/produto-11.png');
+}
+#produto3 {
+    background-image:url('images/produto-12.png');
+}
+#produto4 {
+    background-image:url('images/produto-2.png');
+}
+#produto5 {
+    background-image:url('images/produto-4.png');
+}
+#produto6 {
+    background-image:url('images/produto-5.png');
+}
+section div h3 {
+    position: relative;
+    top: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width:100%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+section div img {
+    width: 20%;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+footer {
+    background-color: white;
+    text-align: center;
+    padding: 18px 0;
+}
+section div a {
+    position: relative;
+    bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    background-color: orangered; 
+    padding: 10px;
+    color: white;
+}
+section div a:hover {
+    text-decoration: underline;
+}
